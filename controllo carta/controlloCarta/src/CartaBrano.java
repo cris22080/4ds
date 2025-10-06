@@ -1,15 +1,42 @@
 public class CartaBrano {
     private int brani;
-    private boolean attivata;
+    private boolean attivata = false;
 
-
-    public CartaBrano(int nBrani) throws Exception {
-        if (nBrani > 0) {
-            brani = nBrani;
+    CartaBrano(int n) throws Exception {
+        if(n>0){
+            brani = n;
         } else {
-            throw new Exception("inserisci un numero di brani valido (maggiore di 0)");
+            throw new Exception("Errore numero brani carta invalido");
+        }
+    }
 
+    public void attiva() throws Exception {
+        if(!attivata){
+            attivata = true;
+        } else {
+            throw new Exception("Errore la carta è già attiva");
+        }
+    }
 
+    public boolean isAttivata(){return attivata;}
+
+    public void compraBrano() throws Exception {
+        if(attivata) {
+            if (brani > 0) {
+                brani--;
+            } else {
+                throw new Exception("Errore non hai abbastanza credito");
+            }
+        } else {
+            throw new Exception("Errore carta non attiva");
+        }
+    }
+
+    public int braniRimanenti() throws Exception {
+        if(attivata){
+            return brani;
+        } else {
+            throw new Exception("Errore carta non attiva");
         }
     }
 }
