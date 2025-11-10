@@ -1,12 +1,16 @@
+import java.time.LocalDate;
+
 public abstract class Animale {
     private String nome;
     private float peso;
     private String sesso;
+    Radiocollare radiocollare;
 
     public Animale(String nome, float peso, String sesso){
         this.nome = nome;
         this.sesso = sesso;
         this.peso = peso;
+
     }
 
     public abstract String versoAnimale();

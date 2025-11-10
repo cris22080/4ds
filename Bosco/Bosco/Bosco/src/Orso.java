@@ -1,12 +1,11 @@
-
+import java.time.LocalDate;
 
 public class Orso extends Animale{
+    Radiocollare radiocollare;
 
-    private String radioCollare;
-
-    public Orso(String nome, float peso, String sesso, String radioCollare){
+    public Orso(String nome, float peso, String sesso, String radioCollare, LocalDate date, String tipo){
         super(nome, peso, sesso);
-        this.radioCollare = radioCollare;
+        this.radiocollare = new Radiocollare(date, tipo);
     }
 
     @Override
