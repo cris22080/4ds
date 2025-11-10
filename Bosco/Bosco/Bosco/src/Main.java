@@ -52,7 +52,8 @@ public class Main {
                         input.nextLine();
                         System.out.println("Dimmi se l'orso ha il radio collare: ");
                         radioCollare = input.nextLine();
-                        Orso o = new Orso(nomeAnimale, peso, sesso, radioCollare);
+                        Orso o = new Orso(nomeAnimale, peso, sesso);
+
                         try{
                             bosco.aggiungiAnimale(o); //creo una eccezione se il bosco è pieno
                             System.out.println("Hai aggiunto un animale al bosco");
