@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="informatic">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CampoMinato (2).zip!/" />
+      <root url="jar://$PROJECT_DIR$/ClassiAstratte.zip!/" />
+      <root url="jar://$PROJECT_DIR$/CronometroAggiornato (1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/CampoMinato.zip!/" />
+      <root url="jar://$PROJECT_DIR$/life.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bosco/Bosco.iml" filepath="$PROJECT_DIR$/Bosco/Bosco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CampoMinato/CampoMinato.iml" filepath="$PROJECT_DIR$/CampoMinato/CampoMinato.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassiAstratte (1)/ClassiAstratte (1).iml" filepath="$PROJECT_DIR$/ClassiAstratte (1)/ClassiAstratte (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/CronometroAggiornato (1)/CronometroAggiornato (1).iml" filepath="$PROJECT_DIR$/CronometroAggiornato (1)/CronometroAggiornato (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/controllo carta/controllo carta.iml" filepath="$PROJECT_DIR$/controllo carta/controllo carta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/informatic.iml" filepath="$PROJECT_DIR$/.idea/informatic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/life/life.iml" filepath="$PROJECT_DIR$/life/life.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prjCronometro/prjCronometro.iml" filepath="$PROJECT_DIR$/prjCronometro/prjCronometro.iml" />
+    </modules>
+  </component>
+</project>
